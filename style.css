@@ -145,6 +145,14 @@ section p {
   margin: 10px 0;
 }
 
+#ubicacion a {
+  color: #007bff; /* Azul típico de enlaces */
+  text-decoration: underline; /* Subrayado */
+  font-weight: bold; /* Negrita */
+  display: inline-block; /* Para margen superior */
+  margin-top: 10px;
+}
+
 /* Footer */
 footer {
   background-color: #333;

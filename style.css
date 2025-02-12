@@ -121,12 +121,14 @@ section p {
 #menu .platillo p {
   color: #555;
 }
-
 #menu .platillo img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
   margin-top: 10px;
   border-radius: 10px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Contacto y ubicación */
